@@ -3,9 +3,9 @@
 # Overview
 - This project is a full-stack inventory management system built using React for the frontend and Node.js with Express for the backend. The application allows users to manage inventory items and suppliers, with features such as adding, updating, and deleting items and suppliers, as well as exporting and importing inventory data in CSV format.
 
-## Features
+# Features
 
-# Frontend
+## Frontend
 - **Inventory Dashboard**: Displays a list of inventory items with item names, quantities.
 
 - **Inventory Item Management**: Forms to add, update, and delete inventory items. 
@@ -19,9 +19,9 @@
 
 - **Low Stock Alerts**: System to mark items as "low stock" when quantities fall below a specified threshold.
 
-## Technologies Used
+# Technologies Used
 
-# Frontend
+## Frontend
 
 - **React**: JavaScript library for building user interfaces.
 
