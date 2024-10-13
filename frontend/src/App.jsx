@@ -1,6 +1,18 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Supplier from "./pages/Supplier";
+import Inventory from "./pages/Inventory";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">Hello world!</h1>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/inventory" element={<Inventory />} />
+        <Route path="/supplier" element={<Supplier />} />
+      </Routes>
+    </Router>
   );
 }
 
